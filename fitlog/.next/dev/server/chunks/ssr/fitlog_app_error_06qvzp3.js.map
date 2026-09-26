@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/AI-Driven%20Full%20Stack%20Web%20Engineering/Assignment/fitlog/fitlog/app/error.js"],"sourcesContent":["\"use client\";\n\nexport default function Error({ error, reset }) {\n  return (\n    <div className=\"mx-auto flex min-h-[60vh] max-w-[1280px] flex-col items-center justify-center gap-4 px-5 py-24 text-center\">\n      <h1 className=\"font-display text-2xl font-bold uppercase tracking-wide text-white\">\n        Something went wrong\n      </h1>\n      <p className=\"max-w-sm text-sm text-muted\">\n        {error?.message || \"An unexpected error occurred. Please try again.\"}\n      </p>\n      <button onClick={() => reset()} className=\"btn-primary mt-2\">\n        Try again\n      </button>\n    </div>\n  );\n}\n"],"names":["Error","error","reset","className","message","onClick"],"mappings":";;;;;AAAA;;AAEe,SAASA,MAAM,EAAEC,KAAK,EAAEC,KAAK,EAAE;IAC5C,qBACE,wPAAC;QAAIC,WAAU;;0BACb,wPAAC;gBAAGA,WAAU;0BAAqE;;;;;;0BAGnF,wPAAC;gBAAEA,WAAU;0BACVF,OAAOG,WAAW;;;;;;0BAErB,wPAAC;gBAAOC,SAAS,IAAMH;gBAASC,WAAU;0BAAmB;;;;;;;;;;;;AAKnE"}}]
-}
