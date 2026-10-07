@@ -35,3 +35,19 @@ finished — all persisted locally so your plan survives a page reload.
    "Add to today's plan" button disabling and a toast warning once it's full.
 7. **Custom 404 page** and graceful error handling for unknown routes and
    failed requests.
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📦 Build & Deploy
+
+```bash
+npm run build
+npm start
+```
