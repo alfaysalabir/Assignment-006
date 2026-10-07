@@ -13,12 +13,12 @@ finished — all persisted locally so your plan survives a page reload.
 
 ## 🛠️ Technologies Used
 
-- **Next.js 14** (App Router) — routing, layouts, client/server components
-- **React 18** — UI and state management (Context API + hooks)
-- **Tailwind CSS** — styling and full responsive design
-- **lucide-react** — icon set
-- **FitLog REST API** — workout data (`https://api.abcz.workers.dev/api/fitlog`)
-- **localStorage** — persists Today's Plan and Saved lists across reloads
+* ▲ **Next.js 14 (App Router)** — routing, layouts, client/server components
+* ⚛️ **React 18** — UI and state management (Context API + hooks)
+* 🎨 **Tailwind CSS** — styling and full responsive design
+* 🧩 **lucide-react** — icon set
+* 🏋️ **FitLog REST API** — workout data (`https://api.abcz.workers.dev/api/fitlog`)
+* 💾 **localStorage** — persists Today's Plan and Saved lists across reloads
 
 ## ✨ Key Features
 
